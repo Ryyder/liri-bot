@@ -6,7 +6,10 @@ const axios = require('axios');
 var Spotify = require('node-spotify-api');
 //include moment npm package (formatting date)
 var moment = require('moment');
+//spotify api key and secret code link
 var keys = require("./keys.js");
+// fs is a core Node package for reading and writing files
+var fs = require("fs");
 //save our process argv[2] into our action variable i.e concert-this
 var action = process.argv[2];
 //save our process argv[3] into our argument variable i.e song name, movie name. use splice and join to only look for any other arguments process.argv[2]
@@ -89,30 +92,106 @@ function spotifyThis (songName) {
 
 //function movieThis
 function movieThis (movieName) {
-  //use axios for a get request using the omdbapi query
-  axios.get("http://www.omdbapi.com/?t=" + movieName + "&apikey=trilogy")
-  .then(function (response) {
+
+  if (movieName === '') {
+    axios.get("http://www.omdbapi.com/?t=mr+nobody&apikey=trilogy")
+    .then(function (response) {
+      // handle success
+
+      console.log("-----------------------------------------------------------------");
+      //we return movie title
+      console.log("Title: " + response.data.Title);
+      //when the movie was released
+      console.log("Released: " + response.data.Released);
+      //return IMDB rating
+      console.log("IMDB Rating: " + response.data.imdbRating);
+      //return rotten tomatoes rating
+      console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
+      //return country produced
+      console.log("Produced At This Country: " + response.data.Country);
+      //return language
+      console.log("Language: " + response.data.Language);
+      //return plot
+      console.log("Plot: " + response.data.Plot);
+      //return actors
+      console.log("Actors: " + response.data.Actors);
+      console.log("-----------------------------------------------------------------");
+    })
+
+  }
+  else {
+    //use axios for a get request using the omdbapi query
+    axios.get("http://www.omdbapi.com/?t=" + movieName + "&apikey=trilogy")
+    .then(function (response) {
     // handle success
 
-    console.log("-----------------------------------------------------------------");
-    //we return movie title
-    console.log("Title: " + response.data.Title);
-    //when the movie was released
-    console.log("Released: " + response.data.Released);
-    //IMDB rating
-    console.log("IMDB Rating: " + response.data.imdbRating);
-    //rotten tomatoes rating
-    console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
-    //country produced
-    console.log("Produced At This Country: " + response.data.Country);
-    //language
-    console.log("Language: " + response.data.Language);
-    //plot
-    console.log("Plot: " + response.data.Plot);
-    //actors
-    console.log("Actors: " + response.data.Actors);
-    console.log("-----------------------------------------------------------------");
-  })
+      console.log("-----------------------------------------------------------------");
+      //we return movie title
+      console.log("Title: " + response.data.Title);
+      //when the movie was released
+      console.log("Released: " + response.data.Released);
+      //IMDB rating
+      console.log("IMDB Rating: " + response.data.imdbRating);
+      //rotten tomatoes rating
+      console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
+      //country produced
+      console.log("Produced At This Country: " + response.data.Country);
+      //language
+      console.log("Language: " + response.data.Language);
+      //plot
+      console.log("Plot: " + response.data.Plot);
+      //actors
+      console.log("Actors: " + response.data.Actors);
+      console.log("-----------------------------------------------------------------");
+    })
+  }
+}
+
+function doThis () {
+
+  fs.readFile("random.txt", "utf8", function(error, data) {
+
+    // If the code experiences any errors it will log the error to the console.
+    if (error) {
+      return console.log(error);
+    }
+  
+    // We will then print the contents of data
+    console.log(data);
+  
+    // Then split it by commas (to make it more readable)
+    var dataArr = data.split(",");
+  
+    /* var action = process.argv[2];
+    var argument = process.argv[3]; */
+  
+    action = dataArr[0];
+    argument = dataArr[1];
+    //remove the front first quotation mark
+    argument = argument.substr(1, argument.length);
+    //remove the last quotation mark
+    argument = argument.substr(0, argument.length - 1);
+
+    switch(action) {
+      //if concert-this is entered at process.argv[2]....
+      case "concert-this":
+        //call concertThis 
+        concertThis(argument);
+      break;
+      //if spotify-this-song is entered at process.argv[2]...
+      case "spotify-this-song":
+        //call spotifyThis
+        spotifyThis(argument);
+      break;
+      //if movie-this is entered as process.argv[2]
+      case "movie-this":
+        //call movieThis
+        movieThis(argument);
+      break;
+    }
+  
+  });
+  
 
 }
 
@@ -132,6 +211,9 @@ switch(action) {
   case "movie-this":
     //call movieThis
     movieThis(argument);
+  break;
+  case "do-what-it-says":
+    doThis()
   break;
 }
 
