@@ -147,6 +147,7 @@ function movieThis (movieName) {
   }
 }
 
+//doThis function. for the case where the user type do-what-it-says
 function doThis () {
 
   fs.readFile("random.txt", "utf8", function(error, data) {
@@ -162,10 +163,9 @@ function doThis () {
     // Then split it by commas (to make it more readable)
     var dataArr = data.split(",");
   
-    /* var action = process.argv[2];
-    var argument = process.argv[3]; */
-  
+    //first element in the array is our action
     action = dataArr[0];
+    //second element in the array is our argument
     argument = dataArr[1];
     //remove the front first quotation mark
     argument = argument.substr(1, argument.length);
