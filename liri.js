@@ -12,7 +12,7 @@ var keys = require("./keys.js");
 var fs = require("fs");
 //save our process argv[2] into our action variable i.e concert-this
 var action = process.argv[2];
-//save our process argv[3] into our argument variable i.e song name, movie name. use splice and join to only look for any other arguments process.argv[2]
+//save our process argv[3] into our argument variable i.e song name, movie name. use splice and join to only look for any other arguments after process.argv[2]
 var argument = process.argv.slice(3).join(" ");
 
 
@@ -27,10 +27,13 @@ function concertThis (bandName) {
       console.log("---------------------------------------------");
       //return venue name
       console.log("Venue Name: " + key.venue.name);
+      appendFile("Venue Name: " + key.venue.name);
       //return venue location
       console.log("Venue Location: " + key.venue.city + ", " + key.venue.region);
+      appendFile("Venue Location: " + key.venue.city + ", " + key.venue.region);
       //return date, formatted using moment
       console.log("Date: " + moment(key.datetime).format("MM/DD/YYYY"));
+      appendFile("Date: " + moment(key.datetime).format("MM/DD/YYYY"));
       console.log("---------------------------------------------");
 
     }
@@ -53,12 +56,17 @@ function spotifyThis (songName) {
         console.log("------------------------------------------------------------------");
         //return artist(s)
         console.log("Artist(s): " + data.tracks.items[i].artists[0].name);
+        appendFile("hello");
+        appendFile("Artist(s): " + data.tracks.items[i].artists[0].name);
         //return song name 
         console.log("Song Name: " + data.tracks.items[i].name);
+        appendFile("Song Name: " + data.tracks.items[i].name);
         //return song preview  
         console.log("Preview: " + data.tracks.items[i].preview_url);
+        appendFile("Preview: " + data.tracks.items[i].preview_url);
         //return album name 
-        console.log("Album: " + data.tracks.items[i].album.name); 
+        console.log("Album: " + data.tracks.items[i].album.name);
+        appendFile("Album: " + data.tracks.items[i].album.name); 
         console.log("------------------------------------------------------------------");
 
     }
@@ -78,12 +86,16 @@ function spotifyThis (songName) {
           console.log("------------------------------------------------------------------");
           //return artist(s)
           console.log("Artist(s): " + data.tracks.items[i].artists[0].name);
+          appendFile("Artist(s): " + data.tracks.items[i].artists[0].name);
           //return song name 
           console.log("Song Name: " + data.tracks.items[i].name);
+          appendFile("Song Name: " + data.tracks.items[i].name);
           //return song preview  
           console.log("Preview: " + data.tracks.items[i].preview_url);
+          appendFile("Preview: " + data.tracks.items[i].preview_url);
           //return album name 
-          console.log("Album: " + data.tracks.items[i].album.name); 
+          console.log("Album: " + data.tracks.items[i].album.name);
+          appendFile("Album: " + data.tracks.items[i].album.name); 
           console.log("------------------------------------------------------------------");
       }
     });
@@ -101,20 +113,28 @@ function movieThis (movieName) {
       console.log("-----------------------------------------------------------------");
       //we return movie title
       console.log("Title: " + response.data.Title);
+      appendFile("Title: " + response.data.Title);
       //when the movie was released
       console.log("Released: " + response.data.Released);
+      appendFile("Released: " + response.data.Released);
       //return IMDB rating
       console.log("IMDB Rating: " + response.data.imdbRating);
+      appendFile("IMDB Rating: " + response.data.imdbRating);
       //return rotten tomatoes rating
       console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
+      appendFile("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
       //return country produced
       console.log("Produced At This Country: " + response.data.Country);
+      appendFile("Produced At This Country: " + response.data.Country);
       //return language
       console.log("Language: " + response.data.Language);
+      appendFile("Language: " + response.data.Language);
       //return plot
       console.log("Plot: " + response.data.Plot);
+      appendFile("Plot: " + response.data.Plot);
       //return actors
       console.log("Actors: " + response.data.Actors);
+      appendFile("Actors: " + response.data.Actors);
       console.log("-----------------------------------------------------------------");
     })
 
@@ -128,23 +148,40 @@ function movieThis (movieName) {
       console.log("-----------------------------------------------------------------");
       //we return movie title
       console.log("Title: " + response.data.Title);
+      appendFile("Title: " + response.data.Title);
       //when the movie was released
       console.log("Released: " + response.data.Released);
+      appendFile("Released: " + response.data.Released);
       //IMDB rating
       console.log("IMDB Rating: " + response.data.imdbRating);
+      appendFile("IMDB Rating: " + response.data.imdbRating);
       //rotten tomatoes rating
       console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
+      appendFile("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
       //country produced
       console.log("Produced At This Country: " + response.data.Country);
+      appendFile("Produced At This Country: " + response.data.Country);
       //language
       console.log("Language: " + response.data.Language);
+      appendFile("Language: " + response.data.Language);
       //plot
       console.log("Plot: " + response.data.Plot);
+      appendFile("Plot: " + response.data.Plot);
       //actors
       console.log("Actors: " + response.data.Actors);
+      appendFile("Actors: " + response.data.Actors);
       console.log("-----------------------------------------------------------------");
     })
   }
+}
+
+function appendFile(data) {
+  fs.appendFile("log.txt", data + "\r\n", function(error) {
+    if (error) {
+      return console.log(error);
+    }
+    console.log("the log was updated!");
+  }) 
 }
 
 //doThis function. for the case where the user type do-what-it-says
