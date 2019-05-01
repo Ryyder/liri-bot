@@ -27,43 +27,44 @@ Using the command do-what-it-says will read a file called random.txt (has a preb
 
 ## Examples
 
- `node liri concert-this calving harris`
+- Here are some video recorded samples with various command examples
 
-` ---------------------------------------------`
- `Venue Name: Pacha`
- `Venue Location: Ibiza,` 
-`Date: 08/20/2019`
-` ---------------------------------------------`
+ `node liri concert-this odesza`
+
+`https://drive.google.com/file/d/1i89VN1vbJRC8tpagPtcpxPwpxrB3Tb3c/view`
 
 
 `node liri spotify-this-song how deep is your love`
 
-`------------------------------------------------------------------`
-`Artist(s): Calvin Harris`
-`Song Name: How Deep Is Your Love - Calvin Harris & R3hab Remix`
-`Preview: https://p.scdn.co/mp3-preview/1c50f702fdbba93e6a4bb86f98888a69357e4005?cid=b5a0185db6c640828594fe9febfc77af`
-`Album: How Deep Is Your Love (Remixes)`
-`------------------------------------------------------------------`
+`https://drive.google.com/file/d/1duDgfZ_zZf7Hm-W8kDYs2Uc0ic5Klr6K/view`
+
+
+`node liri spotify-this-song`
+
+`https://drive.google.com/file/d/1H9xK6QJrUv-emhg9MlKge66_sqaG_hiu/view`
 
 
 `node liri movie-this casino`
 
-`-----------------------------------------------------------------`
-`Title: Casino`
-`Released: 22 Nov 1995`
-`IMDB Rating: 8.2`
-`Rotten Tomatoes Rating: 79%`
-`Produced At This Country: USA, France`
-`Language: English`
-`Plot: A tale of greed, deception, money, power, and murder occur between two best friends: a mafia enforcer and a casino executive, compete against each other over a gambling empire, and over a fast living and fast loving socialite.`
-`Actors: Robert De Niro, Sharon Stone, Joe Pesci, James Woods`
-`-----------------------------------------------------------------`
+`https://drive.google.com/file/d/1gm4H37PqUztKk4WBA_yY9bhqtlMgajCH/view`
 
-`node liri do-what-it-says` `random.txt file has concert-this,"calvin harris"`
 
-` ---------------------------------------------`
- `Venue Name: Pacha`
- `Venue Location: Ibiza,` 
-`Date: 08/20/2019`
-` ---------------------------------------------`
+`node liri movie-this`
 
+`https://drive.google.com/file/d/1O_9gjYXE1WmKkwirIs3trcFf8sc7RfHD/view`
+
+
+`node liri do-what-it-says` 
+
+`https://drive.google.com/file/d/1Axa15okaZLd5-cN3Mt0KY2iUD0fPWLF8/view`
+
+
+**Bonus**
+
+- All the liri commands will write to the file as well.
+
+`node liri do-what-it-says`
+
+`https://drive.google.com/file/d/1kaSLhuAJQyd4bp-QXrW3VLyqEvq3pCeo/view`
+
+- writes to a file called log.txt

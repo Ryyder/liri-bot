@@ -1,163 +1,42 @@
-﻿Venue Name: Double Major
-Venue Location: Bellingham, WA
-Venue Name: The Wellmont Theater
-Venue Location: Montclair, NJ
-Date: 05/23/2019
-Venue Name: Boston Calling
-Date: 05/18/2019
-Venue Location: Boston, MA
-Venue Name: Bonnaroo Music and Arts Festival
-Venue Location: Manchester, TN
-Date: 06/15/2019
-Venue Name: Camp Nowhere
-Venue Location: Houston, Texas
-Venue Name: Camp Nowhere
-Date: 05/24/2019
-Venue Location: Dallas, TX
-Date: 06/21/2019
-Venue Name: Camp Nowhere
-Venue Location: Austin, TX
-Date: 06/23/2019
-Venue Name: Electric Forest
-Venue Location: Rothbury, MI
-Venue Name: Camp Bisco
-Venue Location: Scranton, PA
-Date: 07/18/2019
-Date: 06/22/2019
-Venue Name: Los Angeles State Historic Park
-Venue Location: Los Angeles, CA
-Date: 06/27/2019
-Venue Name: Los Angeles State Historic Park
-Venue Location: Los Angeles, CA
-Date: 07/26/2019
-Date: 07/27/2019
-Artist(s): Calvin Harris
-Song Name: How Deep Is Your Love
-Album: How Deep Is Your Love
-Preview: https://p.scdn.co/mp3-preview/cf1be40ee1b6e350bb6ae77f71f17cbbf63f45e7?cid=b5a0185db6c640828594fe9febfc77af
-Artist(s): Bee Gees
-Song Name: How Deep Is Your Love
-Album: Greatest
-Artist(s): PJ Morton
-Song Name: How Deep Is Your Love (feat. Yebba) - Live
-Preview: https://p.scdn.co/mp3-preview/620e6e8382dd966add40abfd9781b5d164968afa?cid=b5a0185db6c640828594fe9febfc77af
-Preview: null
-Artist(s): Dru Hill
-Song Name: How Deep Is Your Love
-Preview: null
-Album: Enter The Dru
-Album: Gumbo Unplugged (Live)
-Song Name: How Deep Is Your Love - Chris Lake Remix
-Preview: https://p.scdn.co/mp3-preview/0d321abb3af15e7be277dac7840ca208b55fd699?cid=b5a0185db6c640828594fe9febfc77af
-Album: How Deep Is Your Love (Remixes)
-Song Name: How Deep Is Your Love - From "Saturday Night Fever" Soundtrack
-Artist(s): Calvin Harris
-Album: Tales From The Brothers Gibb
-Artist(s): Bee Gees
-Artist(s): the bird and the bee
-Song Name: How Deep Is Your Love
-Preview: null
-Album: Please Clap Your Hands
-Artist(s): Keith Sweat
-Song Name: How Deep Is Your Love
-Preview: https://p.scdn.co/mp3-preview/61c791881c7404e2256da0657404e020e93ac578?cid=b5a0185db6c640828594fe9febfc77af
-Album: Make It Last Forever
-Artist(s): Keith Sweat
-Song Name: How Deep Is Your Love - Remastered
-Preview: https://p.scdn.co/mp3-preview/784170bb4ec6d593c874562a757e13fa020517ac?cid=b5a0185db6c640828594fe9febfc77af
-Album: The Best of Keith Sweat: Make You Sweat
-Preview: null
-Song Name: How Deep Is Your Love
-Preview: https://p.scdn.co/mp3-preview/b170255ac258c2eaf7d6ad2cf4339695878d7aae?cid=b5a0185db6c640828594fe9febfc77af
-Artist(s): PJ Morton
-Artist(s): Richard Clayderman
-Song Name: How Deep Is Your Love
-Preview: https://p.scdn.co/mp3-preview/cd855341b63b6ac01080a1a064097175bc9052a3?cid=b5a0185db6c640828594fe9febfc77af
-Album: Essential Love Songs
-Album: Gumbo
-Song Name: How Deep Is Your Love?
-Preview: https://p.scdn.co/mp3-preview/d49dda0fc1b6d7b483f861f10ddd279377ec35fd?cid=b5a0185db6c640828594fe9febfc77af
-Artist(s): The Rapture
-Album: In the Grace of Your Love
-Song Name: How Deep Is Your Love
-Preview: https://p.scdn.co/mp3-preview/a2c2e7883cf30e6ea61d8e59f15be773b063f85c?cid=b5a0185db6c640828594fe9febfc77af
-Artist(s): Bee Gees
-Album: The Power of Love: Love Songs
-Song Name: How Deep Is Your Love - From "Saturday Night Fever" Soundtrack
-Artist(s): Mina
-Album: Timeless - The All-Time Greatest Hits
-Preview: null
-Artist(s): Bee Gees
-Song Name: How Deep Is Your Love - From "Saturday Night Fever" Soundtrack
-Album: Saturday Night Fever (The Original Movie Soundtrack Deluxe Edition)
-Artist(s): Calvin Harris
-Song Name: How Deep Is Your Love - DJ Snake Remix
-Preview: https://p.scdn.co/mp3-preview/751ca4c526ca35b69e55ec1bba0436711295f145?cid=b5a0185db6c640828594fe9febfc77af
-Album: How Deep Is Your Love (DJ Snake Remix)
-Preview: null
-Artist(s): Sébastien Hogge
-Preview: https://p.scdn.co/mp3-preview/f362241292490041bf754d742152d36c791fe7ed?cid=b5a0185db6c640828594fe9febfc77af
-Song Name: How Deep Is Your Love
-Artist(s): The Bros. Landreth
-Song Name: How Deep Is Your Love
-Preview: https://p.scdn.co/mp3-preview/3b2aa3415176e1b6485cfbc4879f3f86fe8ddf3b?cid=b5a0185db6c640828594fe9febfc77af
-Album: Consortium
-Album: How Deep Is Your Love
-Song Name: How Deep Is Your Love - Calvin Harris & R3hab Remix
-Preview: https://p.scdn.co/mp3-preview/1c50f702fdbba93e6a4bb86f98888a69357e4005?cid=b5a0185db6c640828594fe9febfc77af
-Album: How Deep Is Your Love (Remixes)
-Artist(s): Calvin Harris
-Artist(s): Navarro and Friends
-Preview: https://p.scdn.co/mp3-preview/9d992ae4c0c96d98a5b8ac690fa2172d6984e6e1?cid=b5a0185db6c640828594fe9febfc77af
-Song Name: How Deep Is Your Love
-Album: Back by Popular Demand
-Released: 22 Nov 1995
-Title: Casino
-Produced At This Country: USA, France
-IMDB Rating: 8.2
-Rotten Tomatoes Rating: 79%
-Actors: Robert De Niro, Sharon Stone, Joe Pesci, James Woods
-Plot: A tale of greed, deception, money, power, and murder occur between two best friends: a mafia enforcer and a casino executive, compete against each other over a gambling empire, and over a fast living and fast loving socialite.
-Language: English
-Venue Name: Ushuaïa Ibiza Beach Hotel
+﻿Venue Name: Ushuaïa Ibiza Beach Hotel
 Venue Location: Ibiza, 
 Date: 08/02/2019
 Venue Location: Ibiza, 
+Venue Name: Pacha
+Venue Name: Ushuaïa Ibiza Beach Hotel
 Date: 08/06/2019
+Venue Location: Ibiza, 
 Venue Name: Pacha
+Venue Location: Ibiza, 
 Venue Name: Ushuaïa Ibiza Beach Hotel
-Venue Location: Ibiza, 
-Venue Name: Pacha
-Venue Location: Ibiza, 
 Date: 08/13/2019
-Venue Name: Ushuaïa Ibiza Beach Hotel
+Venue Location: Ibiza, 
 Date: 08/16/2019
-Venue Location: Ibiza, 
-Venue Location: Ibiza, 
-Date: 08/09/2019
 Venue Name: Pacha
+Venue Location: Ibiza, 
 Venue Name: Flughofstrasse 21
+Date: 08/09/2019
 Venue Location: Zurich, 
 Date: 08/21/2019
 Venue Name: Daresbury Estate
-Venue Location: Daresbury, 
 Date: 08/22/2019
+Venue Location: Daresbury, 
 Venue Name: Ushuaïa Ibiza Beach Hotel
-Date: 08/20/2019
 Venue Location: Ibiza, 
-Venue Location: Cheshire, 
-Date: 08/24/2019
 Venue Name: Daresbury
+Date: 08/20/2019
+Venue Location: Cheshire, 
 Date: 08/23/2019
 Venue Name: Pacha
 Venue Location: Ibiza, 
-Venue Name: Stockholms Stadion
-Date: 08/30/2019
-Venue Location: Stockholm, 
-Venue Location: Ibiza, 
 Date: 08/27/2019
+Venue Name: Stockholms Stadion
+Venue Location: Stockholm, 
+Date: 08/30/2019
 Venue Name: Pacha
-Venue Name: Ushuaïa Ibiza Beach Hotel
-Date: 09/03/2019
 Venue Location: Ibiza, 
+Date: 09/03/2019
+Date: 08/24/2019
+Venue Name: Ushuaïa Ibiza Beach Hotel
 Date: 09/06/2019
+Venue Location: Ibiza, 
